@@ -13,12 +13,6 @@
     font-weight: 500;
 }
 
-@font-face {
-    font-family: WorkSans;
-    src: url(../fonts/WorkSans/WorkSans-Semibold.ttf);
-    font-weight: 600;
-}
-
 * {
     font-family: WorkSans, sans-serif;
 }
@@ -180,7 +174,7 @@ li:before {
 }
 
 .pages-grid-cell-info-title {
-	font-weight: 600;
+	font-weight: 500;
 	color: #555;
 }
 
@@ -212,7 +206,7 @@ li:before {
 
 .footer-list-header {
 	font-size: 10pt;
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
@@ -246,7 +240,7 @@ li:before {
 }
 
 .bold {
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .image-in-column {

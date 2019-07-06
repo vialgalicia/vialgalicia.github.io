@@ -4,7 +4,7 @@
 @font-face {
     font-family: WorkSans;
     src: url(../fonts/WorkSans/WorkSans-Regular.ttf);
-    font-weight: normal;
+    font-weight: 400;
 }
 
 @font-face {
@@ -17,12 +17,6 @@
     font-family: WorkSans;
     src: url(../fonts/WorkSans/WorkSans-Semibold.ttf);
     font-weight: 600;
-}
-
-@font-face {
-    font-family: WorkSans;
-    src: url(../fonts/WorkSans/WorkSans-Bold.ttf);
-    font-weight: 700;
 }
 
 * {
@@ -187,7 +181,7 @@ li:before {
 
 .pages-grid-cell-info-title {
 	font-weight: 600;
-	color: #333;
+	color: #555;
 }
 
 .pages-grid-cell-info-subtitle {

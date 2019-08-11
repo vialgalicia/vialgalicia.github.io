@@ -262,6 +262,36 @@ li:before {
 	max-width: 500px;
 }
 
+#contact-form > input, #contact-form > textarea {
+	border: none;
+	background: none;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 15px;
+	border: 1px solid #DDD;
+	border-radius: 8px;
+	padding: 10px 10px;
+	width: 96%;
+	resize: none;
+	color: #555;
+}
+
+#contact-form > textarea {
+	height: 100px;
+}
+
+.contact-form-button {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FAFAFA;
+	background-color: #077CC0;
+	font-weight: 500;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
 @media (max-width: 1172px) {
 
 	main {
@@ -321,6 +351,10 @@ li:before {
 	.two-column-grid-separator {
 		height: 1px;
 		margin: 0px;
+	}
+
+	.contact-form-button {
+		margin-bottom: 30px;
 	}
 
 }

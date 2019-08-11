@@ -31,8 +31,20 @@
 			</header>
 
 			<h2>Contacto</h2>
-			<div class="one-column text">
-				<p>Si tienes cualquier pregunta <a class="decorated-link" href="mailto:contacto@vialgalicia.com">puedes enviarnos un correo electrónico.</a><br><br>Para localizarnos, <a class="decorated-link" href="https://g.page/autoescuela-galicia">echa un vistazo a nuestra página de Google Maps.</a></p>
+			<div class="two-column-grid">
+				<div class="text">
+					<p>Para cualquier duda que tengas, puedes rellenar el siguiente formulario web:</p>
+					<form id="contact-form" action="https://formspree.io/contacto@vialgalicia.com" method="POST">
+						<input type="text" name="name" placeholder="Nombre completo *" required>
+						<input type="email" name="email" placeholder="Correo electrónico *" required>
+						<textarea name="message" placeholder="Escribe tu mensaje aquí..."></textarea>
+						<button class="contact-form-button">Enviar</button>
+					</form>
+				</div>
+				<div class="two-column-grid-separator"></div>
+				<div class="text">
+					<p style="text-align: center;">En construcción. 🚧</p>
+				</div>
 			</div>
 
 		</div>

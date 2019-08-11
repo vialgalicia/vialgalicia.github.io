@@ -268,8 +268,8 @@ li:before {
 	font-size: 16px;
 	display: block;
 	margin-bottom: 15px;
-	border: 1px solid #DDD;
-	border-radius: 8px;
+	border: 1px solid #BBB;
+	border-radius: 4px;
 	padding: 10px 10px;
 	width: 96%;
 	resize: none;

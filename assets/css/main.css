@@ -83,6 +83,19 @@ li:before {
 	color: gray;
 }
 
+.important-alert-banner {
+	background-color: #FADA5E;
+	text-align: center;
+	margin: 0px;
+	padding: 20px;
+	padding-bottom: 25px;
+}
+
+.important-alert-banner > p {
+	margin: 0px;
+	opacity: 0.95;
+}
+
 #main-wrapper {
 	width: auto;
 	max-width: 1000px;

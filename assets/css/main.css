@@ -92,7 +92,9 @@ li:before {
 }
 
 .important-alert-banner > p {
-	margin: 0px;
+	width: auto;
+	max-width: 1000px;
+	margin: 0px auto;
 	opacity: 0.95;
 }
 

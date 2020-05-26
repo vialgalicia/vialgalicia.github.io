@@ -85,17 +85,21 @@ li:before {
 
 .important-alert-banner {
 	background-color: #FADA5E;
-	text-align: center;
+	text-align: justify;
 	margin: 0px;
-	padding: 20px;
-	padding-bottom: 25px;
+	padding: 35px;
+	padding-bottom: 40px;
 }
 
 .important-alert-banner > p {
 	width: auto;
-	max-width: 1000px;
+	max-width: 980px;
 	margin: 0px auto;
 	opacity: 0.95;
+}
+
+.important-alert-banner-title {
+	text-align: center;
 }
 
 #main-wrapper {

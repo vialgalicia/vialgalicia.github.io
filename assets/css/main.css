@@ -91,11 +91,19 @@ li:before {
 	padding-bottom: 40px;
 }
 
+.important-alert-banner-good-news {
+	background-color: #77DD77;
+}
+
 .important-alert-banner > p {
 	width: auto;
 	max-width: 980px;
 	margin: 0px auto;
 	opacity: 0.95;
+}
+
+.important-alert-banner a {
+	text-decoration: underline;
 }
 
 .important-alert-banner-title {

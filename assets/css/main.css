@@ -120,6 +120,25 @@ li:before {
 	height: 35px;
 }
 
+.desktop-nav {
+	display: inline;
+	float: right;
+	margin-top: 2px;
+}
+
+.desktop-nav a {
+	display: inline;
+	margin: 0px;
+	margin-left: 20px;
+	font-size: 11pt;
+	color: #888;
+	text-transform: uppercase;
+}
+
+.desktop-nav a:hover {
+	color: #333;
+}
+
 #main-content {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -355,6 +374,10 @@ li:before {
 }
 
 @media (max-width: 862px) {
+
+	.desktop-nav {
+		display: none;
+	}
 
 	#main-content {
 		grid-template-columns: 1fr;
